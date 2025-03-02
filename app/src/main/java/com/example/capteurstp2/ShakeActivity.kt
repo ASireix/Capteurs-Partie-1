@@ -85,7 +85,6 @@ class ShakeActivity : AppCompatActivity(), SensorEventListener {
             lastY = y
             lastZ = z
         }
-        Log.d("SHAKY", shakeBuildup.toString())
     }
 
     private fun shakeDetected() {
