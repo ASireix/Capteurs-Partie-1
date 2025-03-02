@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/gradient_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capteurs TP"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/displayButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Détection des capteurs"
+            android:background="@drawable/button_rounded"/>
+
+        <Button
+            android:id="@+id/lightshowButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Accéléromètre"
+            android:background="@drawable/button_rounded"/>
+
+        <Button
+            android:id="@+id/directionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Direction"
+            android:background="@drawable/button_rounded"/>
+
+        <Button
+            android:id="@+id/shakeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Secousse"
+            android:background="@drawable/button_rounded"/>
+
+        <Button
+            android:id="@+id/proximityButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Proximité"
+            android:background="@drawable/button_rounded"/>
+
+        <Button
+            android:id="@+id/geoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Géolocalisation"
+            android:background="@drawable/button_rounded"/>
+
+</LinearLayout>
